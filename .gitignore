@@ -1,0 +1,6 @@
+test/
+.vscode
+*.pt
+
+static/tmp.jpg
+FingerSpelling/__pycache__/*
