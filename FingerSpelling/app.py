@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 
 # Load Model
-model = torch.hub.load("F:/pakistan_sign_language", "custom", path ="F:/pakistan_sign_language/best.pt", force_reload=True,source= 'local')
+model = torch.hub.load("", "custom", path ="best.pt", force_reload=True,source= 'local')
 
 model.eval()
 model.conf = 0.25 
