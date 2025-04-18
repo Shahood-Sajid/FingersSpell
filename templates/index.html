@@ -1,0 +1,402 @@
+<!doctype html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Pakistan Sign Language</title>
+    <link rel="stylesheet" href="../static/styling.css">
+
+    <style>
+
+      .corner {
+        border-radius: 25px;
+        border: 2px solid #868686;
+        padding: 0px;
+        width: 38%;
+        height: 465px;
+        text-align: center;
+        margin-top: 7.5%;
+      }
+
+      .video-container {
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+      }
+      
+    </style>
+  </head>
+  
+  <body>
+    <section class="home" id="home">
+
+      <div class="container">
+        <div class="row" style="text-align: center; width:100%;">
+        </div>
+      </div>
+     
+
+      <div class="video-container">
+          <img src="{{ url_for('video') }}" class="corner"></img>
+      </div>
+      
+      <div class="header">
+        <a href="#" class="logo" style="display: inline-block; position: relative; right: 2%;"><span>Pakistan</span> Sign Language</a>
+        <img src="../static/psl-removebg-preview.png" style="width:50px; height: 60px; position:relative; right: 52.5%;display:inline-block;">
+
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#learning">learning</a>
+          <a href="#contact">contact</a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars">
+
+        </div>
+
+        </section>
+        
+        <section class="about" id="about">
+
+          <h1 class="heading" style="position: relative; top: 10px;"><span>about</span> us </h1>
+          
+          <div class="row">
+          
+              <div class="content">
+                  <h3 style="position: relative; display: inline-block; right: 1%; margin-top: 3%;">WHAT IS THE PROJECT ABOUT?</h3>
+                  <p style="position: relative; display: inline-block; margin-top: 1.72%;">There is an ongoing communication barrier between the deaf and the rest of the community. Text writing and interpreters are their only ways of communications. The inability of the two groups to communicate effectively has an impact on their interpersonal relationships. Current study is to develop a deep learning based image classification architecture, which recognizes Pakistan Sign Language Urdu alphabets signs and transforms them into textual form. The key feature of this research is that there will be no need to hire an interpreter to translate finger spellings between the two. Deep learning architecture YOLO “You Only Look Once” is a widely used algorithm for object detection. Using the modified architecture we are able to take image input of hand signs and classified what Urdu huroof-e-tahajji they correspond to, in textual form. Further, there was a need to create our own dataset, which consists of approximately 23000 images of Urdu huroof-e-tahajji and with the help of augmentation, the dataset is now more generalized, hence, it will make the model’s performance more robust. Subsequently, current research is twofold, as it gives an accurate and efficient model for Urdu sign language recognition as well as a newly developed dataset. </p>
+                  <h3 style="position: relative; display: inline-block; right: 1%; margin-top: 3%;">ABOUT THE TEAM</h3>
+                  <p><img src="../static/shahood-dark-grey.jpg" style="height: 200px; position: relative; display: inline-block; left: 45%; margin-top: 2%;" ></img></p>
+                  <p style="position: relative; display: inline-block; margin-top: 1.72%;">Introducing Shahood Sajid, a curious and driven individual taking his first steps into the world of machine learning/deep learning. He is eager to explore the fascinating realm of AI and apply his skills to real-world problems. From building basic models to experimenting with advanced algorithms, Shahood is excited to embark on his journey and see where it takes him.</p>
+                  <p><img src="../static/yus-dark-grey.jpg" style="height: 200px; position: relative; display: inline-block; left: 45%; margin-top: 3%;" ></img></p>
+                  <p style="position: relative; display: inline-block; margin-top: 1.72%;">Introducing Yusra Khan Baloch, an individual extremely passionate about the field of machine learning and data analysis while being highly detail-oriented regarding her work. Is dedicated to build a career in this field and staying up-to-date with the latest advancements and techniques. Is eager to learn more to further polish her skills which makes her a valuable addition to the team.</p>                
+                </div>
+      
+          </div>
+          
+          </section>
+
+          <section class="learning" id="learning">
+
+            <h1 class="heading" style="position: relative; bottom: 1px; margin-bottom: 10px;">sign <span>learning</span></h1>
+        
+            <div class="box-container">
+        
+                <div class="box">
+                    <img src="../static/alif.png" alt="">
+                    <h3 class="title">Alif - ا</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/bay.png" alt="">
+                    <h3 class="title">Bay - ب</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/pay.png" alt="">
+                    <h3 class="title">Pay - پ</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Tay.png" alt="">
+                    <h3 class="title">Tay - ت</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Say.png" alt="">
+                    <h3 class="title">Say - ث</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Chay.png" alt="">
+                    <h3 class="title">Chay - چ</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Hay.png" alt="">
+                    <h3 class="title">Hay - ح</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Khay.png" alt="">
+                    <h3 class="title">Khay - خ</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Dal.png" alt="">
+                    <h3 class="title">Dal - د</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Zaal.png" alt="">
+                    <h3 class="title">Zaal - ذ</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Ray.png" alt="">
+                    <h3 class="title">Ray - ر</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Zay.png" alt="">
+                    <h3 class="title">Zay - ز</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="../static/Seen.png" alt="">
+                    <h3 class="title">Seen - س</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Sheen.png" alt="">
+                    <h3 class="title">Sheen - ش</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="../static/Suad.png" alt="">
+                    <h3 class="title">Suad - ص</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Zuad.png" alt="">
+                    <h3 class="title">Zuad - ض</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Tuey.png" alt="">
+                    <h3 class="title">Tuey - ط</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Zuey.png" alt="">
+                    <h3 class="title">Zuey - ظ</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Fay.png" alt="">
+                    <h3 class="title">Fay - ف</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Gaaf.png" alt="">
+                    <h3 class="title">Gaaf - گ</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Lam.png" alt="">
+                    <h3 class="title">Lam - ل</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Meem.png" alt="">
+                    <h3 class="title">Meem - م</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Nuun.png" alt="">
+                    <h3 class="title">Nuun - ن</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Wao.png" alt="">
+                    <h3 class="title">Wao - و</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img src="../static/Byeh.png" alt="">
+                    <h3 class="title">Byeh - ے</h3>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+        
+            </div>
+        
+        </section>
+        
+        <section class="contact" id="contact">
+
+            <h1 class="heading" style="position: relative; bottom: 2px;"> <span>contact </span>us </h1>
+        
+            <div class="box-container" style="position: relative; bottom: 0px;">
+        
+                <div class="box">
+                    <h3 class="title">Team Member</h3>
+                    <h3 class="amount">Shahood Sajid</h3><br>
+                </div>
+        
+                <div class="box">
+                    <h3 class="title">Team Member</h3>
+                    <h3 class="amount">Yusra Khan Baloch</h3><br>
+                </div>
+        
+                <div class="box">
+                    <h3 class="title">Supervisor</h3>
+                    <h3 class="amount">Sameena Javaid</h3><br>
+                </div>
+        
+            </div>
+        
+
+            <section class="footer">
+
+                <div class="box-container">
+            
+                    <margin3><div class = "box" style="position: relative; right: 50px; bottom: 40px;">
+                        <img class="logo" src="../static/email.png" alt="Logo" style="position: relative; left: 45px; top: 3px;"><a style="position: relative; bottom: 15px; left: 6px;"> <x><i></i> shahoodsajid77@gmail.com </x></a>
+                        <img class="logo" src="../static/phone.png" alt="Logo" style="position: relative; left: 45px; bottom: 18px;"><a style="position: relative; bottom: 35px; right: 7px;"> <i></i> +92 343 1258641 </a>
+                        <img class="logo" src="../static/ln.png" alt="Logo" style="position: relative; left: 44px; bottom: 40px;"><a style="position: relative; bottom: 57px; right: 10px;" href="https://www.linkedin.com/in/shahood-sajid-22b0b5212/" target="_blank"> <i></i> Shahood Sajid </a>
+                        <img class="logo" src="../static/location.png" alt="Logo" style="position: relative; left: 44px; bottom: 60px;"> <a style="position: relative; bottom: 77px; right: 8px;"> <i></i> Karachi, Pakistan </a>
+                    </div></margin3>
+            
+                    <margin><div class="box" style="position: relative; bottom: 40px;">
+                        <img class="logo" src="../static/email.png" alt="Logo" style="position: relative; left: 35px; top: 3px;">  <a style="position: relative; bottom: 15px; right: -0.5px;"><x> <i></i> yusrakhanbaloch@gmail.com </x></a>
+                        <img class="logo" src="../static/phone.png" alt="Logo" style="position: relative; left: 35px; bottom: 18px;"><a style="position: relative; bottom: 35px; right: 7px;"> <i></i> +92 321 2572444 </a>
+                        <img class="logo" src="../static/ln.png" alt="Logo" style="position: relative; left: 35px; bottom: 40px;">  <a style="position: relative; bottom: 57px; right: 5px;" href="https://www.linkedin.com/in/yusra-khan-baloch/" target="_blank"> <i class="fas fa-envelope"></i> Yusra Khan Baloch </a>
+                        <img class="logo" src="../static/location.png" alt="Logo" style="position: relative; left: 35px; bottom: 60px;"><a style="position: relative; bottom: 77px; right: 5px;"> <i></i> Karachi, Pakistan</a>
+                    </div></margin>
+            
+                    <margin2><div class="box"  style="position: relative; bottom: 40px; left: 45px;">
+                        <img class="logo" src="../static/email.png" alt="Logo" style="position: relative; left: 30px; top: 3px;">  <a style="position: relative; bottom: 15px; left: 12px;"><x> <i></i> sameenajaved.bukc@bahria.edu.pk </x></a>
+                        <img class="logo" src="../static/phone.png" alt="Logo" style="position: relative; left: 30px; bottom: 18px;"><a style="position: relative; bottom: 35px; right: 7px;"> <i></i> +92 21 99240002 6 </a>
+                        <img class="logo" src="../static/ln.png" alt="Logo" style="position: relative; left: 30px; bottom: 40px;">  <a style="position: relative; bottom: 57px; right: 5px;" href="https://www.linkedin.com/in/sameena-javaid-692057232/" target="_blank"> <i class="fas fa-envelope"></i> Sameena Javaid </a>
+                        <img class="logo" src="../static/location.png" alt="Logo" style="position: relative; left: 30px; bottom: 60px;"><a style="position: relative; bottom: 77px; right: 5px;"> <i></i> Karachi, Pakistan</a>
+                    </div></margin>           
+                </div>
+            
+               <div class="credit" style="position: relative; margin-top: -55px;">Bahria  University  ©  |  all  rights  reserved </div>
+            
+            </section>
+            
+        </section>
+         
+    </div>
+    </body>
+</html>
